@@ -1,0 +1,42 @@
+.fruits{
+    background-color: orange;
+    border: 2px solid blueviolet;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: ".SF NS Mono", fantasy;
+
+
+}
+.cars{
+    background-color: #0059ff;
+    border: 2px solid #bf00ff;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: ".SF NS Mono", fantasy;
+
+
+}
+
+.FRUITS{
+    background-color: #0bc2b2;
+    border: 2px solid blueviolet;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: ".SF NS Mono", fantasy;
+
+
+}
+#computer{
+
+     background-color: #c20b4b;
+    border: 2px solid #2b49e2;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: ".SF NS Mono", fantasy;
+
+}
+
