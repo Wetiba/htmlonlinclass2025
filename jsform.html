@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/css/formstyle.css">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -39,13 +41,27 @@
 
     </select><br><br>
 
-
-
-
-
-
     <input type="submit" value="Apply">
-</form>
+
+        <!-- Buttons -->
+        <button type="button" onclick="alert('Welcome to the web')">Press it</button>
+        <button type="button" class="python-btn" onclick="showMessage('Python')">Python</button>
+        <button type="button" class="java-btn" onclick="showMessage('Java')">Java</button>
+    </form>
+
+
+<script>
+    function showMessage(language) {
+        if (language === 'Python') {
+            alert("I love Python");
+        } else if (language === 'Java') {
+            alert("I love Java");
+        }
+    }
+</script>
+
+
+
 
 </body>
 </html>

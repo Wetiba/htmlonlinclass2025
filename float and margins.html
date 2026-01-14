@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* This is the CSS from the previous step */
+  .float-image {
+    float: left;
+    margin-right: 20px; /* Space to the right of the image */
+    margin-bottom: 10px; /* Space below the image */
+
+    /* Added width just for this demo so it looks neat */
+    width: 150px;
+    height: auto;
+  }
+
+  /* Basic styling for readability */
+  body {
+    font-family: sans-serif;
+    padding: 30px;
+    line-height: 1.6;
+    max-width: 600px; /* Keeps text from getting too wide for easy reading */
+    border: 1px solid #ccc;
+    margin: 20px auto;
+  }
+</style>
+</head>
+<body>
+
+  <h2>The Floating Effect</h2>
+
+  <img src="https://via.placeholder.com/150x150/0000FF/808080?text=Logo" alt="Placeholder Image" class="float-image">
+
+  <p>
+    This is the paragraph text. Because the image has "float: left" applied to it, this text initially sits to the right side of the image. The "margin-right" we added ensures there is a nice gap between this text and the blue image block.
+    <br><br>
+    <strong>Here is where the wrapping happens:</strong> As we add more and more text, it eventually runs out of vertical space next to the image. Because of the normal document flow, the text will naturally wrap around and continue on the lines directly underneath the image, spanning the full width of the container. This demonstrates how the float sits within the content flow rather than being completely removed from it.
+  </p>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+img {
+  float: left;
+  margin-right: 20px; /* Adds space between image and text */
+  margin-bottom: 10px; /* Adds space below the image */
+}
